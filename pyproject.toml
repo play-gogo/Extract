@@ -6,13 +6,14 @@ authors = [
     {name = "hun0219", email = "gsw98000@gmail.com"},
 ]
 dependencies = [
+    "transform>=1.2.0",
 ]
 requires-python = ">=3.9"
 readme = "README.md"
 license = {text = "MIT"}
 
 [project.scripts]
-ice='extrct.ice:ice_breaking'
+ice='extrct.ice:ice_hun'
 
 [tool.pdm]
 distribution = true
