@@ -1,0 +1,18 @@
+[project]
+name = "Extrct"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "hun0219", email = "gsw98000@gmail.com"},
+]
+dependencies = [
+]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.scripts]
+ice='extrct.ice:ice_breaking'
+
+[tool.pdm]
+distribution = true
