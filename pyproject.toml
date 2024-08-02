@@ -7,6 +7,7 @@ authors = [
 ]
 dependencies = [
     "transform>=1.2.0",
+    "Load @ git+https://github.com/play-gogo/Load.git@ice",
 ]
 requires-python = ">=3.9"
 readme = "README.md"

@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:c13af8994f2f13a4cb497050628e4f499620774aabca826ba1d7e0c9b130e1d4"
+content_hash = "sha256:23103770adea11021a92ceca3b371bcc80099d8a0ae364f3d2d9f6615267ffdd"
 
 [[metadata.targets]]
 requires_python = ">=3.9"
@@ -485,6 +485,16 @@ files = [
     {file = "iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374"},
     {file = "iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3"},
 ]
+
+[[package]]
+name = "load"
+version = "0.1.0"
+requires_python = ">=3.9"
+git = "https://github.com/play-gogo/Load.git"
+ref = "ice"
+revision = "eee40f1beabdd64900a7f078ab15a806cb58ce2f"
+summary = "Default template for PDM package"
+groups = ["default"]
 
 [[package]]
 name = "log-symbols"
