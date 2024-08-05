@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/Extrct.egg-info/PKG-INFO
+src/Extrct.egg-info/SOURCES.txt
+src/Extrct.egg-info/dependency_links.txt
+src/Extrct.egg-info/entry_points.txt
+src/Extrct.egg-info/requires.txt
+src/Extrct.egg-info/top_level.txt
+src/extrct/__init__.py
+src/extrct/ice.py

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Extrct
+Version: 0.1.0
+Summary: Default template for PDM package
+Author-email: hun0219 <gsw98000@gmail.com>
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: Load@ git+https://github.com/play-gogo/Load.git@ice
+Requires-Dist: transform@ git+https://github.com/play-gogo/transform.git@sunwoo/d1.0.0
+
+#Extract
+#dev/d1.0.0
