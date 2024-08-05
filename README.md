@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-#Extract
-#dev/d2.0.0
-=======
 # Day-01 Ice Breaking
 - pip 팩키지에 ice_hun()를 생성
 ice_hun()를 호출하면 아스키아트로 바나나 사진 출력
@@ -20,4 +16,3 @@ pdm install git+https://github.com/play-gogo/Extract.git@d1/0.1.0
 ```bash
 ice
 ```
->>>>>>> d1/0.1.0
