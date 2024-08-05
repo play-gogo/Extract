@@ -9,8 +9,6 @@ requires-python = ">=3.9"
 readme = "README.md"
 license = {text = "MIT"}
 dependencies = [
-    "Load @ git+https://github.com/play-gogo/Load.git@ice",
-    "transform @ git+https://github.com/play-gogo/transform.git@sunwoo/d1.0.0",
     "pandas>=2.2.2",
     "requests>=2.32.3",
 ]
