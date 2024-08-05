@@ -11,17 +11,6 @@ def get_key():
 def gen_url(dt="20200101"):
     base_url = "http://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json"
     key = get_key()
-    #url = f"{base_url}?key={key}&targetDt={dt}"
-    #for key, value in url_param.items():
-    #    url = url + f"&{key}={value}"
-    
-    #url_param = {
-    #        'multiMovieYn' : 'Y',
-    #        'multiMovieYn' : 'N',
-    #        'repNationCd' : 'K',
-    #        'repNationCd' : 'F',
-    #        'wideAreaCd' : 
-    #}
     url = f"{base_url}?key={key}&targetDt={dt}"
 
     return url
@@ -31,7 +20,6 @@ def req(load_dt="20200101"):
     r = requests.get(url)
     code = r.status_code
     data = r.json()
-    pprint(data)
     return code, data
 
 def req2list(load_dt='20200101') -> list:
@@ -42,7 +30,6 @@ def req2list(load_dt='20200101') -> list:
 def list2df(load_dt='20120101'):
     l = req2list(load_dt)
     df = pd.DataFrame(l)
-    print(df)
     return df
 
 list2df()
