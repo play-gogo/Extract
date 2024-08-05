@@ -33,4 +33,3 @@ def list2df(load_dt='20120101'):
     df['load_dt']=load_dt
     return df
 
-list2df()
